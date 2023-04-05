@@ -69,18 +69,18 @@ window.addEventListener('load', () => {
     console.log('Fun Bus has loaded!');
 })
 
-// FOCUS 
+// //FOCUS 
 
-let headerOne = document.querySelector('.logo-heading');
+// let headerOne = document.querySelector('.logo-heading');
 
-headerOne.addEventListener('focus', (evxnt) => {
-    evxnt.target.style.backgroundColor = '#FCE883';
-});
+// headerOne.addEventListener('focus', (event) => {
+//     event.target.style.backgroundColor = '#FCE883';
+// });
 
-// BLUR
-headerOne.addEventListener('blur', (evxnt) =>{
-    evxnt.target.style.backgroundColor = '';
-});
+// // BLUR
+// headerOne.addEventListener('blur', (event) =>{
+//     event.target.style.backgroundColor = '';
+// });
 
 // RESIZE
 window.addEventListener('resize', () => {
